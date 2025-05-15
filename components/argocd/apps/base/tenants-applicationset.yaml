@@ -10,7 +10,7 @@ spec:
   generators:
   - git:
       repoURL: 'https://github.com/redhat-ai-services/ai-accelerator-qa.git'  # Update me on fork
-      revision: 2.16-parasol-dev-prod
+      revision: 2.19-bootcamp
       directories:
       - path: tenants/*/*/overlays/patch-me-see-overlay
       - path: tenants/*/*/overlays/common
