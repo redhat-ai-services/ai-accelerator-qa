@@ -22,7 +22,7 @@ spec:
     externalStorage:
       basePath: ''
       bucket: pipelines
-      host: 'https://minio-api-object-datastore.apps.cluster-q7fgr.q7fgr.sandbox2566.opentlc.com'
+      host: 'https://minio-api-object-datastore.apps.cluster-9gllb.9gllb.sandbox2509.opentlc.com'
       port: ''
       region: us-east-1
       s3CredentialsSecret:
