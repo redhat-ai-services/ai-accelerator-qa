@@ -48,12 +48,12 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: minio-data-connection
-                  key: minio_root_user
+                  key: AWS_ACCESS_KEY_ID
             - name: MINIO_ROOT_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: minio-data-connection
-                  key: minio_root_password
+                  key: AWS_SECRET_ACCESS_KEY
           ports:
             - containerPort: 9000
               protocol: TCP
